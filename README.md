@@ -1,27 +1,25 @@
-# EUBIAN GHOST — Cybersecurity Portfolio
+# EUBIAN GHOST — Professional Portfolio Draft
 
-A fresh, responsive static portfolio website for Sohel Rana.
+A responsive, single-page portfolio concept for Md Sohel Rana, combining a professional IT career presentation with subtle purple/blue cybersecurity styling.
 
-## Sections are isolated
-- **Home:** personal introduction and CTF results only.
-- **Credentials:** certificate and badge items based on the supplied certificate images/PDFs.
-- **Projects:** practical labs/projects only, with in-progress status stated honestly.
-- **Skills:** current learning and practice areas.
-- **About:** career direction and approach.
-- **Contact:** LinkedIn/GitHub links and an email-app form.
+## Preview locally
+1. Extract the ZIP.
+2. Open `index.html` in a browser.
+3. Internet access is needed for the Google Fonts import; the page otherwise works as a static site.
 
-## Run locally
-Open `index.html` in a browser. Keep the `assets` directory next to it.
+## Publish to GitHub Pages
+Upload `index.html`, `styles.css`, and `script.js` to the root of the intended GitHub Pages repository, then enable GitHub Pages in repository settings.
 
-## Publish
-Upload `index.html` and the full `assets/` directory to a static host such as GitHub Pages.
+## Before publishing — please verify
+- Education status/date: the uploaded CV lists the B.Sc. as ongoing and expected 2026. Update if your status has changed.
+- Confirm exact employment dates for Kafiluddin Public School and College.
+- Verify all certificate titles and dates against the original certificates.
+- Add actual certificate images, project evidence, CTF profile links, and repository links where available.
+- Confirm that the displayed email and phone number are intended for public use.
+- Project cards currently describe areas of practice, not independently verified completed projects. Add evidence before presenting a card as a completed project.
 
-## Accuracy notes
-The CTF leaderboard rows are transcribed from the supplied team leaderboard screenshot and are explicitly described as team-page placements, not individual global ranks. Certificate metadata comes from the supplied images/PDFs. Lab projects and skills under development are labelled accordingly.
-
-## Certificate display update
-Certificate previews are clickable and open the full-size image or original PDF in a new tab. Added H7CTF 2026, O7CTF 2026, and DEADFACE CTF 2026 Competitor credentials. Added a branded footer with GitHub, LinkedIn, and Back to top links.
+No company logos, certificates, rankings, or project screenshots have been fabricated.
 
 
-## Latest polish
-The Home greeting is reduced in size and kept on one line where the viewport allows. The About section explicitly states that EUBIAN GHOST is Sohel Rana's nickname/online handle.
+## CV download
+The navigation includes a **Download CV** link. The original first uploaded CV PDF is stored at `assets/Md-Sohel-Rana-CV.pdf` and is linked as a downloadable PDF. Keep the `assets` folder alongside `index.html` when publishing.
